@@ -19,8 +19,7 @@ A corporate website with catalog for a building materials store, created with Bo
 ## Links
 
 - The Gulp.js boilerplate I created, which I used for development: [github.com/koshacha/gulp-boilerplate](https://github.com/koshacha/gulp-boilerplate)
-- Website link -
-  :defer-button[[stroymarket23.ru](https://stroymarket23.ru/){rel="noreferrer"}]
+- Website link - [stroymarket23.ru](https://stroymarket23.ru/){rel="noreferrer"}
 
 ## Techstack
 
