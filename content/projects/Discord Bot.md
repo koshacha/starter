@@ -1,21 +1,15 @@
 ---
-title: Discord Bot
-description: TypeScript, Node.js, Nest.js, Google Firebase, Docker
+description: The bot for a private Discord server dedicated to communication and roleplay. Written with Nest.js.
 seoDescription: Discord bot project with Node.js, Nest.js, Google Firebase, and Docker.
-date: 2024-1-7
+year: 2024
 sort: 4
-categories:
-  - backend
-stack:
-  - node.js
-  - nest.js
-  - google firebase!
-  - github actions
-  - docker!
 published: true
+color: "#F7BFBE"
+icon: doodles:star
+layout: project
 ---
 
-# Discord Bot
+## Introduction
 
 This is my first serious non-study project on Node.js as a backend developer. I created a bot for a private Discord server dedicated to communication and roleplay.
 

@@ -1,22 +1,16 @@
 ---
-title: Building Materials Website
-description: 1C-Bitrix, PHP
+description: A corporate website with catalog for a building materials store, created with Bootstrap and CMS 1C-Bitrix.
 seoDescription: A corporate website with catalog for a building materials store,
   created with Bootstrap and CMS 1C-Bitrix in Ilya's Mazunin Portfolio
-date: 2020-1-1
+year: 2020
 sort: 1
-categories:
-  - frontend
-  - backend
-legacy: true
 published: true
+icon: doodles:floor
+color: "#FF4746"
+layout: project
 ---
 
-# Building Materials Website page
-
-A corporate website with catalog for a building materials store, created with Bootstrap and CMS 1C-Bitrix.
-
-## Links
+## Introduction
 
 - The Gulp.js boilerplate I created, which I used for development: [github.com/koshacha/gulp-boilerplate](https://github.com/koshacha/gulp-boilerplate)
 - Website link - [stroymarket23.ru](https://stroymarket23.ru/){rel="noreferrer"}

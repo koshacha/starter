@@ -1,20 +1,14 @@
 ---
-title: Fuel Card Website
-description: Wordpress, PHP
+description: A corporate website for a fuel card company created using Bootstrap and CMS Wordpress.
 seoDescription: A corporate website for a fuel card company created using
   Bootstrap and CMS Wordpress in Ilya's Mazunin Portfolio.
-date: 2020-1-1
+year: 2020
 sort: 1
-categories:
-  - frontend
-  - backend
-legacy: true
 published: true
+color: black
+icon: doodles:round
+layout: project
 ---
-
-# Fuel Card Website
-
-A corporate website for a fuel card company created using Bootstrap and CMS Wordpress.
 
 ## Links
 

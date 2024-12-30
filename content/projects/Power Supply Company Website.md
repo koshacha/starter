@@ -1,20 +1,14 @@
 ---
-title: Power Supply Company Website
-description: 1C-Bitrix, PHP
+description: A corporate website for an energy supply company, created with Bootstrap and CMS 1C-Bitrix.
 seoDescription: A corporate website for an energy supply company, created with
   Bootstrap and CMS 1C-Bitrix in Ilya's Mazunin Portfolio.
-date: 2020-1-1
+year: 2020
 sort: 1
-categories:
-  - frontend
-  - backend
-legacy: true
+layout: project
 published: true
+icon: doodles:neft
+color: "#41BB85"
 ---
-
-# Power Supply Company Website
-
-A corporate website for an energy supply company, created with Bootstrap and CMS 1C-Bitrix.
 
 ## Links
 

@@ -1,24 +1,18 @@
 ---
-title: Cryptocurrency Exchanger
-description: React.js, React Router, TypeScript, Socket.IO, Docker
-date: 2023-10-10
+description: A cryptocurrency buying and exchanging app created with React.js and Socket.IO.
+year: 2023
 sort: 5
-categories:
-  - frontend
-stack:
-  - react.js
-  - react router!
-  - socket.io!
-  - docker
-  - i18n!
 published: true
 seoDescription: Cryptocurrency exchanger project featuring React.js, React
   Router, TypeScript, Socket.IO, and Docker for efficient exchange operations.
+color: "#5077FF"
+icon: doodles:sphere
+layout: project
 ---
 
-# Cryptocurrency Exchanger
+## Introduction
 
-Quite an interesting project I've been working on. Using React.js, I created a website that allows users to exchange cryptocurrency. The interface was created using Tailwind CSS, and communication with the backend is mostly done using Socket.io messaging. Also, the project has a pretty simple internationalization. In this project I only worked on Frontend and a little bit on DevOps.
+Quite an interesting project I've been working on. Using **React.js**, I created a website that allows users to exchange cryptocurrency. The interface was created using Tailwind CSS, and communication with the backend is mostly done using Socket.io messaging. Also, the project has a pretty simple internationalization. In this project I only worked on Frontend and a little bit on DevOps.
 
 ## Links
 
@@ -45,7 +39,7 @@ Incoming messages:
 And here are the outgoing messages. They are more complicated, because from the backend side all these messages were received with a single identifier "order".
 
 - _currencies_ - request currency data.
-- _order\_data_ - request order data.
+- _order_data_ - request order data.
 - _change_ - create a request for currency exchange
 - _rate_ - evaluate the work of the service, whether the order was fulfilled (or not).
 
@@ -53,15 +47,17 @@ I wrote the following code, which completely covered my needs in this typing and
 
 ```ts
 interface ServerToClientEvents {
-  ticker: (message: SocketCurrenciesMessage | SocketExchangeRateMessage) => void;
+  ticker: (
+    message: SocketCurrenciesMessage | SocketExchangeRateMessage
+  ) => void;
   order: (res: OrderResponse) => void;
 }
 
 export interface ClientSocket extends Socket<ServerToClientEvents> {
-  emit(event: 'order', type: 'currencies'): this;
-  emit(event: 'order', type: 'order_data', dto: GetOrderDto): this;
-  emit(event: 'order', type: 'change', dto: CreateOrderDto): this;
-  emit(event: 'order', type: 'rate', dto: OrderRateDto): this;
+  emit(event: "order", type: "currencies"): this;
+  emit(event: "order", type: "order_data", dto: GetOrderDto): this;
+  emit(event: "order", type: "change", dto: CreateOrderDto): this;
+  emit(event: "order", type: "rate", dto: OrderRateDto): this;
 }
 ```
 

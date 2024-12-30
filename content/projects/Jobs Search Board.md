@@ -1,23 +1,19 @@
 ---
-title: Jobs Search Board
-description: Next.js, PHP, Rest API
+description: Jobs search board website, involving Next.js.
 seoDescription: Jobs search board project involving Next.js, PHP, and Rest API.
   Explored GetResponse, SendGrid, and GoHighLevel for enhanced digital mailing
   functionalities
-date: 2022-4-2
+year: 2022
 sort: 4
-categories:
-  - frontend
-  - backend
-stack:
-  - next.js
-  - react.js
-  - php
+published: true
+layout: project
+icon: doodles:star-2
+color: "#8A46FF"
 ---
 
-# Jobs Search Board
+## Introduction
 
-As part of this project, I developed a Next.js application with a PHP backend that provides users with a listing of employment opportunities. Talroo API and CareerJet API are used to retrieve the jobs. The users can filter the results by category, job location and by text query.
+I developed a Next.js application with a PHP backend that provides users with a listing of employment opportunities. Talroo API and CareerJet API are used to retrieve the jobs. The users can filter the results by category, job location and by text query.
 
 The UI has been designed using Tailwind CSS.
 

@@ -1,21 +1,16 @@
 ---
-title: Marketplace Platform
-description: Next.js, RTK Query, WebSocket, Google Firebase Authentication, Docker
+description: Marketplace platform leveraging Next.js
 seoDescription: Marketplace platform leveraging Next.js, RTK Query, WebSocket,
   Google Firebase Authentication, and Docker for seamless user experience.
-date: 2023-6-1
+year: 2023
 sort: 5
-categories:
-  - frontend
-stack:
-  - next.js
-  - rtk query!
-  - socket!
-  - google firebase authentication!
-  - docker!
+layout: project
+published: true
+icon: doodles:cross
+color: "#FF6110"
 ---
 
-# Marketplace Platform
+## Introduction
 
 My first complex project using React.js - a website for a marketplace where users can create accounts, customize their personal profile, create stores, products, promotional posts and jobs, add items to cart and correspond with sellers. In this project I worked exclusively on the Frontend. I was in constant contact with the specialist responsible for the Backend.
 
