@@ -26,33 +26,6 @@
           <div
             class="leading-6 text-neutral-500 dark:text-neutral-200 text-sm flex flex-wrap justify-between w-full"
           >
-            <nav class="flex-wrap flex gap-y-3 gap-x-8">
-              <a
-                class="hover:text-black duration-300"
-                title="link to your page"
-                aria-label="your label"
-                href="/system/overview"
-                ><span class="relative z-10">Overview</span> </a
-              ><a
-                class="hover:text-black duration-300"
-                title="link to your page"
-                aria-label="your label"
-                href="https://www.lexingtonthemes.com/legal/license"
-                ><span class="relative z-10">License</span> </a
-              ><a
-                class="hover:text-black duration-300"
-                title="link to your page"
-                aria-label="your label"
-                href="https://lexingtonthemes.com/documentation/quick-start"
-                ><span class="relative z-10">Documentation</span> </a
-              ><a
-                class="hover:text-black duration-300"
-                title="link to your page"
-                aria-label="your label"
-                href="/https://twitter.com/lexingtonthemes"
-                ><span class="relative z-10">Social</span>
-              </a>
-            </nav>
             <div>
               <p class="justify-end ml-auto">
                 <ClientOnly>
