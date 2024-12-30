@@ -4,7 +4,8 @@
       <div class="flex items-center">
         <div>
           <img
-            class="inline-block h-9 w-9 ring-1 ring-black dark:ring-white/10 grayscale filter rounded-full"
+            src="https://avatars.githubusercontent.com/u/13609082?v=4"
+            class="inline-block h-9 w-9 ring-1 ring-black dark:ring-white/10 rounded-full"
             alt=""
           />
         </div>

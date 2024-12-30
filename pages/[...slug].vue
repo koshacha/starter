@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const { page, layout } = useContent();
+</script>
+
 <template>
-  <ContentDoc />
+  <ContentRenderer :key="page._id" :value="page" />
 </template>

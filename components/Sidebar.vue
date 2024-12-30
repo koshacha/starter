@@ -7,13 +7,13 @@
     >
       <div class="flex flex-col flex-1 pt-16 pb-4 overflow-y-auto">
         <the-header />
-        <menu />
+        <the-menu />
       </div>
-    </div>
-    <div
-      class="flex flex-shrink-0 py-4 px-6 border-t dark:border-neutral-700 items-center"
-    >
-      <resume-button />
+      <div
+        class="flex flex-shrink-0 py-4 px-6 border-t dark:border-neutral-700 items-center"
+      >
+        <resume-button />
+      </div>
     </div>
   </aside>
 </template>
