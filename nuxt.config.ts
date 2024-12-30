@@ -1,9 +1,31 @@
+import tailwindTypography from "@tailwindcss/typography";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@nuxt/icon"],
+
   routeRules: {
     "/": { prerender: true },
+  },
+
+  tailwindcss: {
+    config: {
+      plugins: [tailwindTypography],
+    },
+  },
+
+  icon: {
+    customCollections: [
+      {
+        prefix: "doodles",
+        dir: "./assets/icons/doodles",
+      },
+    ],
+  },
+
+  content: {
+    documentDriven: true,
   },
 
   app: {
@@ -13,4 +35,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  compatibilityDate: "2024-12-28",
 });
