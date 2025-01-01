@@ -1,8 +1,6 @@
 <template>
   <nuxt-link
-    v-if="prev"
-    :to="prev._path"
-    onclick="window.history.back()"
+    to="/projects/"
     type="button"
     class="text-sm text-neutral-500 hover:text-blue-400 dark:text-neutral-50 duration-200"
   >
@@ -10,7 +8,7 @@
   </nuxt-link>
   <div class="flex mt-12 flex-col items-start gap-4 lg:flex-row">
     <div
-      class="size-10 lg:size-28 inline-grid place-content-center rounded-xl lg:rounded-2xl dark:border dark:border-neutral-700 bg-[var(--bg)]"
+      class="size-10 shrink-0 lg:size-28 inline-grid place-content-center rounded-xl lg:rounded-2xl dark:border dark:border-neutral-700 bg-[var(--bg)]"
       :style="{ '--bg': page?.color }"
     >
       <Icon

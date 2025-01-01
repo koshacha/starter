@@ -1,58 +1,60 @@
 @tailwind base;
 
-@layer base {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-medium tracking-tight text-neutral-900 dark:text-white;
-  }
+@layer components {
+  main {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply font-medium tracking-tight text-neutral-900 dark:text-white;
+    }
 
-  /* :is(h1, h2, h3, h4, h5, h6) + p {
-    @apply text-black font-medium text-base dark:text-white lg:text-lg;
-  } */
+    /* :is(h1, h2, h3, h4, h5, h6) + p {
+      @apply text-black font-medium text-base dark:text-white lg:text-lg;
+    } */
 
-  h1 {
-    @apply text-2xl sm:text-4xl;
-  }
+    h1 {
+      @apply text-2xl sm:text-4xl;
+    }
 
-  h2 {
-    @apply text-xl sm:text-3xl;
-  }
+    h2 {
+      @apply text-xl sm:text-3xl;
+    }
 
-  h3 {
-    @apply text-lg sm:text-2xl;
-  }
+    h3 {
+      @apply text-lg sm:text-2xl;
+    }
 
-  h4 {
-    @apply text-base sm:text-xl;
-  }
+    h4 {
+      @apply text-base sm:text-xl;
+    }
 
-  h5 {
-    @apply text-sm sm:text-lg;
-  }
+    h5 {
+      @apply text-sm sm:text-lg;
+    }
 
-  h6 {
-    @apply text-xs sm:text-base;
-  }
+    h6 {
+      @apply text-xs sm:text-base;
+    }
 
-  p {
-    @apply mt-2 text-neutral-500 dark:text-neutral-500;
-  }
+    p {
+      @apply mt-2 text-neutral-500 dark:text-neutral-500;
+    }
 
-  figcaption {
-    @apply text-neutral-500 dark:text-neutral-500 text-xs;
-  }
+    figcaption {
+      @apply text-neutral-500 dark:text-neutral-500 text-xs;
+    }
 
-  ul,
-  ol {
-    @apply text-neutral-500 dark:text-neutral-500 list-disc;
-  }
+    ul,
+    ol {
+      @apply text-neutral-500 dark:text-neutral-500 list-disc;
+    }
 
-  hr {
-    @apply border-t dark:border-neutral-700 pt-12 mt-4;
+    hr {
+      @apply border-t dark:border-neutral-700 pt-12 mt-4;
+    }
   }
 }
 
