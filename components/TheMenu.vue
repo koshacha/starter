@@ -43,11 +43,6 @@ const links: Link[] = [
     icon: "lucide:briefcase-business",
   },
   {
-    to: "/stack",
-    text: "Stack",
-    icon: "lucide:square-stack",
-  },
-  {
     to: "/now",
     text: "Now",
     icon: "lucide:repeat-2",
