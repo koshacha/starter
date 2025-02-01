@@ -3,7 +3,12 @@ import tailwindTypography from "@tailwindcss/typography";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@nuxt/icon"],
+  modules: [
+    "@nuxt/content",
+    "@nuxtjs/tailwindcss",
+    "@nuxt/icon",
+    "@nuxtjs/google-fonts",
+  ],
 
   ssr: true,
 
@@ -24,6 +29,12 @@ export default defineNuxtConfig({
         dir: "./assets/icons/doodles",
       },
     ],
+  },
+
+  googleFonts: {
+    families: {
+      Inter: [400, 500, 600, 700],
+    },
   },
 
   content: {

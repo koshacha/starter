@@ -1,5 +1,9 @@
 @tailwind base;
 
+html {
+  font-family: Inter, sans-serif;
+}
+
 @layer components {
   main {
     h1,
@@ -11,9 +15,9 @@
       @apply font-medium tracking-tight text-neutral-900 dark:text-white;
     }
 
-    /* :is(h1, h2, h3, h4, h5, h6) + p {
-      @apply text-black font-medium text-base dark:text-white lg:text-lg;
-    } */
+    :is(h1, h2, h3, h4, h5, h6) + p {
+      @apply mt-4 text-neutral-500 dark:text-neutral-400;
+    }
 
     h1 {
       @apply text-2xl sm:text-4xl;
