@@ -11,23 +11,7 @@
       role="list"
       class="grid md:grid-cols-2 gap-12 dark:border-neutral-700 lg:col-span-2"
     >
-      <li class="flow-root" v-for="item in items" :key="item.link">
-        <a :href="item.link" :title="item.title">
-          <div class="flex items-center gap-x-4">
-            <Icon :name="item.icon" class="size-10 rounded-xl dark:border dark:border-neutral-700" />
-            <div class="text-sm leading-6">
-              <p
-                class="font-semibold text-black dark:text-white hover:text-blue-500"
-              >
-                {{ item.title }}
-              </p>
-              <p class="text-neutral-500 text-sm dark:text-neutral-400">
-                @{{ item.handle }}
-              </p>
-            </div>
-          </div>
-        </a>
-      </li>
+      <ContactItem v-for="item in items" :item="item" :key="item.link" />
     </ul>
   </div>
 </template>
