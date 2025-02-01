@@ -52,10 +52,5 @@ const links: Link[] = [
     text: "Contact",
     icon: "lucide:mail",
   },
-  {
-    to: "/socials",
-    text: "Socials",
-    icon: "lucide:network",
-  },
 ];
 </script>
