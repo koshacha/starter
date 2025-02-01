@@ -2,6 +2,7 @@
 
 Here you will find all of the work I have done over the years. I am always looking for new clients and projects to work on.
 
+::delimeter
 ::work{title="Frontend Developer" year="2022 – Present" where="Freelance"}
 Frontend development on React.js/Next.js. Backend design
 and implementation on PHP/Node.js.
@@ -32,3 +33,6 @@ Alpine.js.
 Worked on support, revising websites, publishing content on
 them. Created templates for simple components.
 ::
+::
+
+
