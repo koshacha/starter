@@ -1,1 +1,0 @@
-import{r as t}from"./CG936Vux.js";import{k as r,c as o,e as s,f as c}from"./DPFUZ2hF.js";import"./CxYJgpPD.js";const a={},n={class:"mt-12 lg:mt-24 border-t dark:border-neutral-700 pt-12"};function l(e,d){return o(),s("section",null,[c("div",n,[t(e.$slots,"default")])])}const _=r(a,[["render",l]]);export{_ as default};
