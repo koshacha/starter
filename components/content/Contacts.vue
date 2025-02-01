@@ -11,7 +11,7 @@
       role="list"
       class="grid md:grid-cols-2 gap-12 dark:border-neutral-700 lg:col-span-2"
     >
-      <ContactItem v-for="item in items" :item="item" :key="item.link" />
+      <ContactItem v-for="item in items" v-bind="item" :key="item.link" />
     </ul>
   </div>
 </template>
