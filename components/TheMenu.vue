@@ -43,13 +43,8 @@ const links: Link[] = [
     icon: "lucide:briefcase-business",
   },
   {
-    to: "/now",
-    text: "Now",
-    icon: "lucide:repeat-2",
-  },
-  {
     to: "/contact",
-    text: "Contact",
+    text: "Contacts",
     icon: "lucide:mail",
   },
 ];
