@@ -1,0 +1,1 @@
+import{r}from"./CmdNupgg.js";import{k as t,c as o,e as s}from"./DabcpzST.js";import"./CxYJgpPD.js";const c={},a={class:"mt-12 lg:mt-24 border-t dark:border-neutral-700 pt-12"};function n(e,l){return o(),s("div",a,[r(e.$slots,"default")])}const f=t(c,[["render",n]]);export{f as default};
