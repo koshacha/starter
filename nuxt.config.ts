@@ -39,6 +39,9 @@ export default defineNuxtConfig({
 
   content: {
     documentDriven: true,
+    highlight: {
+      theme: "dark-plus",
+    },
   },
 
   app: {
