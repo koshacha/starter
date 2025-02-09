@@ -1,9 +1,9 @@
-# Get in touch
+# Контакты
 
 I am open to collaborating on exciting projects with wonderful individuals. If you require any assistance, I am more than willing to offer my support.
 
 ::delimeter
-:::contacts{title="Contact"}
+:::contacts{title="Связь"}
 ::::contact-item
 ---
 handle: "@Koshacha"
@@ -24,7 +24,7 @@ color: "#8B89CC"
 ::::
 :::
 
-:::contacts{title="Development"}
+:::contacts{title="Код"}
 ::::contact-item
 ---
 handle: Koshacha
@@ -54,7 +54,7 @@ color: "#FFA118"
 ::::
 :::
 
-:::contacts{title="Social Media"}
+:::contacts{title="Соцсети"}
 ::::contact-item
 ---
 handle: koshacha

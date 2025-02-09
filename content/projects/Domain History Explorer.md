@@ -1,7 +1,8 @@
 ---
-description: An Electron app which accepts a list of domain names and checks their history in the Web Archive for errors, redirects etc.
-seoDescription: The app was created using Electron, I used jQuery to add
-  interactivity to the interface and Bootstrap was used for styling.
+description: Приложение для Electron, которое принимает список доменных имен и проверяет их историю в веб-архиве на наличие ошибок, редиректов и т.д.
+seoDescription:
+  Приложение было создано с помощью Electron, я использовал jQuery для добавления
+  интерактивности в интерфейс, а Bootstrap использовался для стилизации.
 year: 2020
 sort: 0
 published: true
@@ -11,14 +12,14 @@ layout: project
 link: https://github.com/koshacha/domain-history-checker
 ---
 
-## Introduction
+## Введение
 
-Quite an old project of mine that I created after graduating from university. The app was created using Electron, I used jQuery to add interactivity to the interface and Bootstrap was used for styling.
+Довольно старый проект, который я создал после окончания университета. Приложение было создано с помощью Electron, я использовал jQuery для добавления интерактивности в интерфейс, а Bootstrap был использован для стилизации.
 
-## **Purpose of the application**
+## **Цель приложения**
 
-The application accepts a list of domain names and checks their history in the Web Archive for errors, redirects.
+Приложение принимает список доменных имен и проверяет их историю в веб-архиве на наличие ошибок, редиректов.
 
-## **Choosing Electron**
+## **Выбор Electron**
 
-I wanted to learn the technology of creating desktop applications using JavaScript.
+Я хотел изучить технологию создания настольных приложений с помощью JavaScript.

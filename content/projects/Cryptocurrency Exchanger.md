@@ -1,51 +1,53 @@
 ---
-description: A cryptocurrency buying and exchanging app created with React.js and Socket.IO.
+description: Приложение для покупки и обмена криптовалюты, созданное с помощью React.js и Socket.IO.
 year: 2023
 sort: 5
 published: true
-seoDescription: Cryptocurrency exchanger project featuring React.js, React
-  Router, TypeScript, Socket.IO, and Docker for efficient exchange operations.
+seoDescription:
+  Проект криптовалютного обменника с использованием React.js, React
+  Router, TypeScript, Socket.IO и Docker для эффективных обменных операций.
 color: "#5077FF"
 icon: doodles:sphere
 layout: project
 link: "https://deswop.com"
 ---
 
-## Introduction
+## Введение
 
-Quite an interesting project I've been working on. Using **React.js**, I created a website that allows users to exchange cryptocurrency. The interface was created using Tailwind CSS, and communication with the backend is mostly done using Socket.io messaging. Also, the project has a pretty simple internationalization. In this project I only worked on Frontend and a little bit on DevOps.
+Довольно интересный проект, над которым я работал. Используя **React.js**, я создал сайт, который позволяет пользователям обменивать криптовалюту. Интерфейс был создан с помощью Tailwind CSS, а связь с бэкендом осуществляется в основном с помощью обмена сообщениями Socket.io. Также проект имеет довольно простую интернационализацию. В этом проекте я работал только над Frontend и немного над DevOps.
 
-## Links
+## Ссылки
 
-- Git repository: **not available due to NDA**
+- Git-репозиторий: **не доступен из-за NDA**
 
-## Choosing a React.js
+## Выбор React.js
 
-The site is quite simple, globally it consists of a cryptocurrency exchange component and minimalistic content pages, so I chose React.js. I also decided to use TypeScript in this project to simplify the work of future developers and protect the client from unexpected errors.
+Сайт довольно простой, глобально он состоит из компонента криптовалютной биржи и минималистичных контентных страниц, поэтому я выбрал React.js. Также я решил использовать TypeScript в этом проекте, чтобы упростить работу будущих разработчиков и защитить клиента от непредвиденных ошибок.
 
-## Work Progress
+## Ход работы
 
-The project was finished quite quickly, during the work I mastered working with Socket.io, strengthened my knowledge about dockerization of projects and about routing in React.js. Most importantly, I got to know Vite.
+Проект был закончен довольно быстро, за время работы я освоил работу с Socket.io, укрепил свои знания о докеризации проектов и о маршрутизации в React.js. И самое главное - я познакомился с Vite.
 
-## Interesting realization details
+## Интересные детали реализации
 
-I decided to fully type Socket.io inbound and outbound, but as it turns out, there isn't much information about this in the official documentation.
+Я решил полностью типизировать входящие и исходящие сообщения Socket.io, но, как оказалось, в официальной документации об этом не так много информации.
 
-Incoming messages:
+Входящие сообщения:
 
-- _ticker_ - contains either exchange rate data or current order data
-- _order_ - contains data about created, requested order.
+- _ticker_ - содержит либо данные о курсе валют, либо данные о текущем ордере
+- _order_ - содержит данные о созданном, запрошенном ордере.
 
-And here are the outgoing messages. They are more complicated, because from the backend side all these messages were received with a single identifier "order".
+А вот исходящие сообщения. Они сложнее, так как со стороны бэкенда все эти сообщения были получены с одним идентификатором «order».
 
-- _currencies_ - request currency data.
-- _order_data_ - request order data.
-- _change_ - create a request for currency exchange
-- _rate_ - evaluate the work of the service, whether the order was fulfilled (or not).
+- _currencies_ - запрос данных о валюте.
+- _order_data_ - запрос данных о заказе.
+- _change_ - создать запрос на обмен валюты.
+- _rate_ - оценить работу сервиса, был ли выполнен заказ (или нет).
 
-I wrote the following code, which completely covered my needs in this typing and works just perfectly.
+Я написал следующий код, который полностью покрыл мои потребности в данной типизации и работает просто идеально.
 
 ::prose-code
+
 ```ts
 interface ServerToClientEvents {
   ticker: (
@@ -61,6 +63,5 @@ export interface ClientSocket extends Socket<ServerToClientEvents> {
   emit(event: "order", type: "rate", dto: OrderRateDto): this;
 }
 ```
-::
 
-## Images
+::

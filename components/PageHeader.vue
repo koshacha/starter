@@ -1,11 +1,11 @@
 <template>
-  <nuxt-link
+  <nuxt-link-locale
     to="/projects/"
     type="button"
     class="text-sm text-neutral-500 hover:text-[var(--project-color)] dark:text-neutral-50 duration-200"
   >
-    ← Back
-  </nuxt-link>
+    ← {{ $t("back") }}
+  </nuxt-link-locale>
   <div class="flex mt-12 flex-col items-start gap-4 lg:flex-row">
     <div
       class="size-10 shrink-0 lg:size-28 inline-grid place-content-center rounded-xl lg:rounded-2xl dark:border dark:border-neutral-700 bg-[var(--bg)]"
@@ -32,7 +32,7 @@
     class="flex items-center justify-between text-xs mt-24 pt-0 py-2 border-b dark:border-neutral-700"
   >
     <p class="text-neutral-400 text-base" v-if="page?.year">
-      Launched on:
+      {{ $("launched") }}
       <time :datetime="page?.year" class="font-mono"> {{ page?.year }} </time>
     </p>
     <client-only>
@@ -43,7 +43,7 @@
         nopener
         rel="noopener noreferrer"
         class="text-sm text-neutral-500 hover:text-[var(--project-color)] dark:text-neutral-50 duration-200"
-        >See it live →
+        >{{ $t("live") }} →
       </a>
     </client-only>
   </div>

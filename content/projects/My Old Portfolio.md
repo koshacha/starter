@@ -1,28 +1,27 @@
 ---
-description: Website on Svelte using SSG and TypeScript, to show the world my portfolio and gained experience as a frontend developer.
-seoDescription: "Website on Svelte using SSG and TypeScript, to show the world my portfolio and gained experience as a frontend developer."
+description: Сайт на Svelte с использованием SSG и TypeScript, чтобы показать миру мое портфолио и накопленный опыт в качестве фронтенд-разработчика.
+seoDescription: «Сайт на Svelte с использованием SSG и TypeScript, чтобы показать миру мое портфолио и накопленный опыт в качестве фронтенд-разработчика».
 year: 2023
 sort: 3
 layout: project
 published: true
 icon: doodles:naruto
 color: "#5E9167"
-link: "https://leerob.io/"
+# link: "https://leerob.io/"
 ---
+## Введение
 
-## Introduction
+В какой-то момент мне понадобилось место, где я мог бы заявить о себе, рассказать о своих навыках и проектах, так и появился этот сайт. В качестве фреймворка я выбрал Svelte и за все время разработки ни разу не пожалел об этом. Интерфейс сайта был создан традиционно с помощью Tailwind CSS, для хостинга я использовал Vercel.
 
-At some point I needed a place where I could make myself known, talk about my skills and projects, that's how this site came about. I chose Svelte as a framework and during the whole time of development I have never regretted it. The interface of the site was created traditionally with Tailwind CSS, for hosting I used Vercel.
+## Ссылки
 
-## Links
+- Git-репозиторий [github.com/koshacha/portfolio](https://github.com/koshacha/portfolio)
+- При создании интерфейса для своего сайта я во многом вдохновлялся [этим сайтом](https://leerob.io/)
 
-- Git repository [github.com/koshacha/portfolio](https://github.com/koshacha/portfolio)
-- I was inspired by [this site](https://leerob.io/) in many ways when I was creating the interface for my own
+## Выбор фреймворка Svelte/SvelteKit
 
-## Choosing a Svelte/SvelteKit framework
+Я посетил сайт фреймворка, просмотрел небольшие обучающие материалы, представленные на сайте, и нашел этот фреймворк интересным. Поэтому я решил изучить его поглубже и создать на нем сайт. И, черт возьми, я просто в восторге от Svelte! Он прост в освоении и предоставляет невероятно удобный опыт разработки. Я считаю, что он идеально подходит для создания как простых, так и сложных сайтов. Это огромное облегчение - прийти в Svelte после React.js и понять, что тебе не нужно беспокоиться о таких вещах, как мемоизация компонентов».
 
-I visited the framework's website, went through the small tutorials provided on the site and I found this framework interesting. So, I decided to explore it more deeply and build a website on it. And man, I just love Svelte! It's easy to learn and presents an incredibly user-friendly development experience. I think it's perfect for building both simple and complex sites. It's a huge relief to come to Svelte after React.js and realize that you don't have to worry about things like memoizing components.
+## Прогресс в работе
 
-## Work Progress
-
-In the course of my work, I learned all the details of developing in Svelte, from simple components, to complex logic in +server.ts files. The posts on the site are generated from Markdown files, dynamic image optimization is set up, and the interface is full of simple but nice animations. I also got more familiar with Vite.
+В процессе работы я изучил все тонкости разработки в Svelte, от простых компонентов до сложной логики в файлах +server.ts. Посты на сайте генерируются из файлов Markdown, настроена динамическая оптимизация изображений, а интерфейс наполнен простыми, но приятными анимациями. Также я познакомился с Vite.

@@ -1,6 +1,6 @@
 ---
-description: The bot for a private Discord server dedicated to communication and roleplay. Written with Nest.js.
-seoDescription: Discord bot project with Node.js, Nest.js, Google Firebase, and Docker.
+description: Бот для приватного Discord-сервера, посвященного общению и ролевой игре. Написан на Nest.js.
+seoDescription: Проект Discord-бота на Node.js, Nest.js, Google Firebase и Docker.
 year: 2024
 sort: 4
 published: true
@@ -10,37 +10,37 @@ layout: project
 link: "https://discord.com/oauth2/authorize?client_id=1121418492097343589&permissions=275012176976&scope=bot"
 ---
 
-## Introduction
+## Введение
 
-This is my first serious non-study project on Node.js as a backend developer. I created a bot for a private Discord server dedicated to communication and roleplay.
+Это мой первый серьезный проект на Node.js без учебы в качестве бэкенд-разработчика. Я создал бота для частного сервера Discord, предназначенного для общения и ролевых игр.
 
-## Links
+## Ссылки
 
-- Git repository: [github.com/koshacha/paimon-nestjs](https://github.com/koshacha/paimon-nestjs)
+- Git-репозиторий: [github.com/koshacha/paimon-nestjs](https://github.com/koshacha/paimon-nestjs)
 
-As the main library for dealing with Discord.js with Nest.js I used [this one](https://github.com/necordjs/necord).
+В качестве основной библиотеки для работы с Discord.js с Nest.js я использовал [эту](https://github.com/necordjs/necord).
 
-## Bot commands
+## Команды бота
 
-The bot can do the following.
+Бот может делать следующее.
 
-- Counts member posts in certain channels (admin decides which ones) and outputs a rating for the whole time, week or month.
-- With the power of [RANDOM.ORG](https://www.random.org/) gives a random number/action
-- Supports simple server economy - allows server users to earn currency and buy game items with it (which can be created by admin)
+- Подсчитывает посты пользователей в определенных каналах (админ решает, в каких именно) и выводит рейтинг за все время, неделю или месяц.
+- С помощью [RANDOM.ORG](https://www.random.org/) выдает случайное число/действие.
+- Поддерживает простую экономику сервера - позволяет пользователям сервера зарабатывать валюту и покупать на нее игровые предметы (которые могут быть созданы администратором)
 
-## Realizations details
+## Детали реализации
 
-- Development Language: Node.js
-- Nest.js framework
-- Database: Google Firebase
+- Язык разработки: Node.js
+- Фреймворк Nest.js
+- База данных: Google Firebase
 
-## Work progress
+## Прогресс в работе
 
-In the course of work I got to know Nest.js and Discord.js better, gained experience in bot development. I configured Github Actions so that the image at Docker Hub would be updated after changes in the main repository branch.
+В процессе работы я познакомился с Nest.js и Discord.js поближе, получил опыт разработки ботов. Я настроил Github Actions так, чтобы образ на Docker Hub обновлялся после изменений в основной ветке репозитория.
 
-## Launch the bot using docker compose
+## Запуск бота с помощью docker compose
 
-First of all, you will need to create a docker-compose.yml file with the following contents:
+Прежде всего, вам нужно создать файл docker-compose.yml со следующим содержимым:
 
 ```yaml
 name: paimon
@@ -59,7 +59,7 @@ services:
     image: koshacha/paimon-bot:master
 ```
 
-You'll also need to create an .env file and put it next to it.
+Вам также нужно будет создать файл .env и поместить в него следующее.
 
 ```text
 DISCORD_TOKEN=""
@@ -70,9 +70,9 @@ GOOGLE_CLIENT_EMAIL=""
 GOOGLE_PRIVATE_KEY=""
 ```
 
-You'll need to get a Discord token and Google Firebase keys first, of course.
+Конечно, сначала вам нужно будет получить токен Discord и ключи Google Firebase.
 
-All you have to do is run the application with the command:
+Все, что вам нужно сделать, это запустить приложение с помощью команды:
 
 ```bash
 docker-compose up -d

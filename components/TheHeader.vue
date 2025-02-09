@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center flex-shrink-0 pl-8 text-black">
-    <nuxt-link href="/" class="group block flex-shrink-0 cursor-pointer">
+    <nuxt-link-locale href="/" class="group block flex-shrink-0 cursor-pointer">
       <div class="flex items-center">
         <div>
           <img
@@ -13,7 +13,7 @@
           <p
             class="text-sm font-medium text-neutral-900 dark:text-white group-hover:opacity-80"
           >
-            Ilya Mazunin
+            {{ $t("kyubey") }}
           </p>
           <p
             class="text-xs font-medium text-neutral-500 dark:text-white group-hover:opacity-80"
@@ -22,6 +22,6 @@
           </p>
         </div>
       </div>
-    </nuxt-link>
+    </nuxt-link-locale>
   </div>
 </template>

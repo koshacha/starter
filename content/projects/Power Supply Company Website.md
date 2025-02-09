@@ -1,7 +1,8 @@
 ---
-description: A corporate website for an energy supply company, created with Bootstrap and CMS 1C-Bitrix.
-seoDescription: A corporate website for an energy supply company, created with
-  Bootstrap and CMS 1C-Bitrix in Ilya's Mazunin Portfolio.
+description: Корпоративный сайт для энергосбытовой компании, созданный с помощью Bootstrap и CMS 1С-Битрикс.
+seoDescription:
+  Корпоративный сайт для энергосбытовой компании, созданный с помощью
+  Bootstrap и CMS 1С-Битрикс.
 year: 2020
 sort: 1
 layout: project
@@ -11,11 +12,11 @@ color: "#41BB85"
 link: "https://www.noviten.ru/"
 ---
 
-## Links
+## Ссылки
 
-- The Gulp.js boilerplate I created, which I used for development: [github.com/koshacha/gulp-boilerplate](https://github.com/koshacha/gulp-boilerplate)
+- Созданный мной шаблон Gulp.js, который я использовал для разработки: [github.com/koshacha/gulp-boilerplate](https://github.com/koshacha/gulp-boilerplate)
 
-## Techstack
+## Стек технологий
 
 - Pug/Jade
 - SCSS
@@ -23,5 +24,3 @@ link: "https://www.noviten.ru/"
 - jQuery
 - Gulp
 - 1C-Bitrix CMS
-
-## Images

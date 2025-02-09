@@ -1,7 +1,7 @@
 ---
-description: Marketplace platform leveraging Next.js
-seoDescription: Marketplace platform leveraging Next.js, RTK Query, WebSocket,
-  Google Firebase Authentication, and Docker for seamless user experience.
+description: Платформа для маркетплейсов на основе Next.js
+seoDescription: Платформа для маркетплейса, использующая Next.js, RTK Query, WebSocket,
+  Google Firebase Authentication и Docker для обеспечения бесперебойной работы пользователей.
 year: 2023
 sort: 5
 layout: project
@@ -11,24 +11,22 @@ color: "#FF6110"
 link: "https://anvost.com"
 ---
 
-## Introduction
+## Введение
 
-My first complex project using React.js - a website for a marketplace where users can create accounts, customize their personal profile, create stores, products, promotional posts and jobs, add items to cart and correspond with sellers. In this project I worked exclusively on the Frontend. I was in constant contact with the specialist responsible for the Backend.
+Мой первый сложный проект с использованием React.js - сайт для торговой площадки, где пользователи могут создавать аккаунты, настраивать свой личный профиль, создавать магазины, товары, рекламные посты и вакансии, добавлять товары в корзину и вести переписку с продавцами. В этом проекте я работал исключительно над Frontend. Я находился в постоянном контакте со специалистом, отвечающим за Backend.
 
-## Links
+## Ссылки
 
-- Git repository - **not available due to NDA**
+- Git-репозиторий - **не доступен из-за NDA**
 
-## Choosing a Next.js framework
+## Выбор фреймворка Next.js
 
-SEO-optimization, availability of every page of the site in search engine results was very important for the customer, that's why Next.js was chosen as the main technology. It has the usual and familiar React.js under the hood and provides convenient work with routing, page creation and SSR.
+Для заказчика была очень важна SEO-оптимизация, наличие каждой страницы сайта в результатах поисковых систем, поэтому в качестве основной технологии был выбран Next.js. Она имеет под капотом привычный и знакомый React.js и обеспечивает удобную работу с маршрутизацией, созданием страниц и SSR.
 
-## Work Progress
+## Ход работы
 
-During the course of the project, I became familiar with a number of essential technologies and libraries such as:
+В ходе работы над проектом я познакомился с рядом необходимых технологий и библиотек, таких как:
 
-- Incremental Static Regeneration (ISR) in Next.js
-- Socket for implementing chat (https://www.npmjs.com/package/react-use-websocket)
-- Google Firebase Auth - users can use social networks for registration and or authorization on the site
-
-## Images
+- Incremental Static Regeneration (ISR) в Next.js
+- Сокет для реализации чата (https://www.npmjs.com/package/react-use-websocket)
+- Google Firebase Auth - пользователи могут использовать социальные сети для регистрации и авторизации на сайте

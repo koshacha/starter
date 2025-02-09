@@ -3,7 +3,7 @@
     <div>
       <div class="px-8 py-4 space-y-4">
         <p class="text-sm font-semibold uppercase text-black dark:text-white">
-          Portfolio
+          {{ $t("portfolio") }}
         </p>
         <nuxt-link-locale
           v-for="link in links"
@@ -12,11 +12,11 @@
           class="flex items-center text-sm text-neutral-500 dark:text-neutral-50 group duration-200 gap-3"
           :class="{
             'hover:text-[var(--project-color)]': hasCustomColor,
-            'hover:text-blue-500': !hasCustomColor
+            'hover:text-blue-500': !hasCustomColor,
           }"
         >
           <Icon class="text-inherit size-4" :name="link.icon" />
-          {{ link.text }}
+          {{ $t('menu.' + link.text) }}
         </nuxt-link-locale>
       </div>
     </div>
@@ -33,22 +33,22 @@ interface Link {
 const links: Link[] = [
   {
     to: "/",
-    text: "Home",
+    text: "home",
     icon: "lucide:home",
   },
   {
     to: "/projects",
-    text: "Projects",
+    text: "projects",
     icon: "lucide:briefcase-business",
   },
   {
     to: "/work",
-    text: "Work",
+    text: "work",
     icon: "lucide:square-stack",
   },
   {
     to: "/contact",
-    text: "Contacts",
+    text: "contacts",
     icon: "lucide:mail",
   },
 ];

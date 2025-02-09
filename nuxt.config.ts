@@ -54,8 +54,9 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    locales: ['en', 'ru'],
+    locales: ["en", "ru"],
     defaultLocale: "ru",
+    vueI18n: "./i18n.config.ts",
   },
 
   compatibilityDate: "2024-12-28",

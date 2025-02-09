@@ -1,8 +1,10 @@
 ---
-description: A corporate website with catalog for a building materials store,
-  created with Bootstrap and CMS 1C-Bitrix.
-seoDescription: A corporate website with catalog for a building materials store,
-  created with Bootstrap and CMS 1C-Bitrix in Ilya's Mazunin Portfolio
+description:
+  Корпоративный сайт с каталогом для магазина строительных материалов,
+  создан с помощью Bootstrap и CMS 1С-Битрикс.
+seoDescription:
+  Корпоративный сайт с каталогом для магазина строительных материалов,
+  созданный с помощью Bootstrap и CMS 1С-Битрикс.
 year: 2020
 sort: 1
 published: true
@@ -12,9 +14,9 @@ layout: project
 link: "https://stroymarket23.ru/"
 ---
 
-## Introduction
+## Введение
 
-- The Gulp.js boilerplate I created, which I used for development: [github.com/koshacha/gulp-boilerplate](https://github.com/koshacha/gulp-boilerplate)
+- Созданный мной шаблон Gulp.js, который я использовал для разработки: [github.com/koshacha/gulp-boilerplate](https://github.com/koshacha/gulp-boilerplate)
 
 ## Techstack
 
@@ -23,6 +25,4 @@ link: "https://stroymarket23.ru/"
 - Bootstrap CSS
 - jQuery
 - Gulp
-- 1C-Bitrix CMS
-
-## Images:
+- CMS «1С-Битрикс

@@ -1,8 +1,7 @@
 ---
-description: Jobs search board website, involving Next.js.
-seoDescription: Jobs search board project involving Next.js, PHP, and Rest API.
-  Explored GetResponse, SendGrid, and GoHighLevel for enhanced digital mailing
-  functionalities
+description: Сайт доски объявлений о поиске работы с использованием Next.js.
+seoDescription: Проект доски объявлений о поиске работы с использованием Next.js, PHP и Rest API.
+  Изучение GetResponse, SendGrid и GoHighLevel для расширения функций цифровой рассылки
 year: 2022
 sort: 4
 published: true
@@ -12,24 +11,23 @@ color: "#8A46FF"
 link: "https://jobsandneeds.com"
 ---
 
-## Introduction
+## Введение
 
-I developed a Next.js application with a PHP backend that provides users with a listing of employment opportunities. Talroo API and CareerJet API are used to retrieve the jobs. The users can filter the results by category, job location and by text query.
+Я разработал приложение Next.js с бэкендом на PHP, которое предоставляет пользователям список вакансий. Для получения вакансий используются Talroo API и CareerJet API. Пользователи могут фильтровать результаты по категориям, местоположению вакансии и текстовым запросам.
 
-The UI has been designed using Tailwind CSS.
+Пользовательский интерфейс был разработан с использованием Tailwind CSS.
 
-## Links
+## Ссылки
 
-- Git repository: **not available due to NDA**
+- Git-репозиторий: **не доступен из-за NDA**
 
-## Digital Mailing
+## Цифровая рассылка
 
-In contact with Advertising Specialist, I got to learn about a lot of different services and integrations. With Apps Script, I organized the collection of leads from landing pages into a Google Sheets spreadsheet, and in the email sending services, I prepared and set up all the necessary scripts to work. I'll list all the integrations used below:
+Общаясь со специалистом по рекламе, я узнал о множестве различных сервисов и интеграций. С помощью Apps Script я организовал сбор лидов с целевых страниц в таблицу Google Sheets, а в сервисах email-рассылок подготовил и настроил все необходимые для работы скрипты. Ниже я перечислю все использованные интеграции:
 
-- GetResponse is an online marketing platform that allows you to send email newsletters, create lendings, host webinars, etc., based in Poland.
-- SendGrid is a Denver, Colorado based customer communication platform for transactional and marketing emails.
-- GoHighLevel is a comprehensive software solution built to help you manage customer relationships, automate sales processes and improve lead generation efforts, all from a single platform.
+- GetResponse - платформа для онлайн-маркетинга, позволяющая отправлять email-рассылки, создавать лендинги, проводить вебинары и т. д., базирующаяся в Польше.
+- SendGrid - платформа для общения с клиентами, базирующаяся в Денвере, штат Колорадо, для транзакционных и маркетинговых электронных писем.
+- GoHighLevel - это комплексное программное решение, созданное для управления взаимоотношениями с клиентами, автоматизации процессов продаж и повышения эффективности работы по привлечению клиентов, и все это на единой платформе.
 
-Part of my job was also to improve the reputation of our domains for email services, reduce the risk of getting into the spam folder, and make users more likely to actually open emails.
+Частью моей работы также было улучшение репутации наших доменов для почтовых служб, снижение риска попадания в папку спама и повышение вероятности того, что пользователи действительно будут открывать письма.
 
-## Images

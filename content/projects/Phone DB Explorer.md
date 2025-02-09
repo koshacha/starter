@@ -1,8 +1,9 @@
 ---
-description: An React.js SPA CRUD, for a MySQL phone database.
-seoDescription: An React.js SPA, which could be used to explore MySQL phone
-  number database, make edits to it - for example, mark numbers as viewed and so
-  on.
+description: React.js SPA CRUD, для базы данных телефонов MySQL.
+seoDescription:
+  React.js SPA, с помощью которого можно исследовать телефонную базу данных MySQL.
+  базу данных телефонных номеров MySQL, вносить в нее правки - например, отмечать номера как просмотренные и т.д.
+  далее.
 year: 2020
 sort: 1
 layout: project
@@ -12,12 +13,12 @@ color: "#9A4574"
 link: "https://github.com/koshacha/database-reader"
 ---
 
-## Introduction
+## Введение
 
-My old React.js project. The client needed a SPA, which could be used to explore MySQL phone number database, make edits to it - for example, mark numbers as viewed and so on. An essential problem was the speed of the application - there could be several tables and they could include a enormous number of rows.
+Мой старый проект на React.js. Клиенту требовался SPA, с помощью которого можно было бы исследовать базу данных телефонных номеров MySQL, вносить в нее правки - например, отмечать номера как просмотренные и так далее. Существенной проблемой была скорость работы приложения - таблиц могло быть несколько, и они могли содержать огромное количество строк.
 
-In the process, I developed the frontend on React.js + Bootstrap CSS, and the MySQL handler functions were implemented in PHP.
+В процессе работы я разработал фронтенд на React.js + Bootstrap CSS, а функции-обработчики MySQL были реализованы на PHP.
 
-## Links
+## Ссылки
 
-- Website Link: N/A, the customer wished to use the application locally on their computer
+- Ссылка на сайт: N/A, клиент пожелал использовать приложение локально на своем компьютере

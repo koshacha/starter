@@ -15,6 +15,7 @@
             'hover:text-blue-500': !hasCustomColor,
           }"
         >
+          <Icon class="text-inherit size-4" :name="locale.icon" />
           {{ locale.name }}
         </SwitchLocalePathLink>
       </div>
@@ -26,14 +27,17 @@
 const locales: Array<{
   code: "en" | "ru";
   name: string;
+  icon: string;
 }> = [
   {
     code: "en",
     name: "English",
+    icon: "tabler:alphabet-latin",
   },
   {
     code: "ru",
     name: "Русский",
+    icon: "tabler:alphabet-cyrillic",
   },
 ];
 
