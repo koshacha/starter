@@ -9,6 +9,7 @@ published: true
 layout: project
 icon: doodles:star-2
 color: "#8A46FF"
+link: "https://jobsandneeds.com"
 ---
 
 ## Introduction
@@ -20,7 +21,6 @@ The UI has been designed using Tailwind CSS.
 ## Links
 
 - Git repository: **not available due to NDA**
-- Website link: <DeferButton><a href="https://jobsandneeds.com" rel="noreferrer">jobsandneeds.com</a></DeferButton>
 
 ## Digital Mailing
 

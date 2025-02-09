@@ -8,6 +8,7 @@ published: true
 icon: doodles:shtuka
 color: black
 layout: project
+link: https://github.com/koshacha/domain-history-checker
 ---
 
 ## Introduction
@@ -17,10 +18,6 @@ Quite an old project of mine that I created after graduating from university. Th
 ## **Purpose of the application**
 
 The application accepts a list of domain names and checks their history in the Web Archive for errors, redirects.
-
-## **Links**
-
-- Git repository: **github.com/koshacha/domain-history-checker**
 
 ## **Choosing Electron**
 

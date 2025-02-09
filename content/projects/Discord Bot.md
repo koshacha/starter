@@ -7,6 +7,7 @@ published: true
 color: "#F7BFBE"
 icon: doodles:star
 layout: project
+link: "https://discord.com/oauth2/authorize?client_id=1121418492097343589&permissions=275012176976&scope=bot"
 ---
 
 ## Introduction
@@ -16,8 +17,6 @@ This is my first serious non-study project on Node.js as a backend developer. I 
 ## Links
 
 - Git repository: [github.com/koshacha/paimon-nestjs](https://github.com/koshacha/paimon-nestjs)
-- Bot link:
-  :defer-button[[invite bot](https://discord.com/oauth2/authorize?client_id=1121418492097343589&permissions=275012176976&scope=bot)]
 
 As the main library for dealing with Discord.js with Nest.js I used [this one](https://github.com/necordjs/necord).
 

@@ -8,6 +8,7 @@ seoDescription: Cryptocurrency exchanger project featuring React.js, React
 color: "#5077FF"
 icon: doodles:sphere
 layout: project
+link: "https://deswop.com"
 ---
 
 ## Introduction
@@ -17,7 +18,6 @@ Quite an interesting project I've been working on. Using **React.js**, I created
 ## Links
 
 - Git repository: **not available due to NDA**
-- Website link: [deswop.com](https://deswop.com)
 
 ## Choosing a React.js
 
@@ -45,6 +45,7 @@ And here are the outgoing messages. They are more complicated, because from the 
 
 I wrote the following code, which completely covered my needs in this typing and works just perfectly.
 
+::prose-code
 ```ts
 interface ServerToClientEvents {
   ticker: (
@@ -60,5 +61,6 @@ export interface ClientSocket extends Socket<ServerToClientEvents> {
   emit(event: "order", type: "rate", dto: OrderRateDto): this;
 }
 ```
+::
 
 ## Images

@@ -8,6 +8,7 @@ layout: project
 published: true
 icon: doodles:cross
 color: "#FF6110"
+link: "https://anvost.com"
 ---
 
 ## Introduction
@@ -17,7 +18,6 @@ My first complex project using React.js - a website for a marketplace where user
 ## Links
 
 - Git repository - **not available due to NDA**
-- Website link - <DeferButton><a href="https://anvost.com" rel="noreferrer">anvost.com</a></DeferButton>
 
 ## Choosing a Next.js framework
 

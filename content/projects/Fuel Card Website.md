@@ -8,9 +8,9 @@ published: true
 color: black
 icon: doodles:round
 layout: project
+link: "https://tver-karta.ru/"
 ---
 
 ## Links
 
 - The Gulp.js boilerplate I created, which I used for development: [github.com/koshacha/gulp-boilerplate](https://github.com/koshacha/gulp-boilerplate)
-- Website link - [tver-karta.ru](https://tver-karta.ru/){rel="noreferrer"}

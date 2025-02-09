@@ -9,12 +9,12 @@ published: true
 icon: doodles:floor
 color: "#FF4746"
 layout: project
+link: "https://stroymarket23.ru/"
 ---
 
 ## Introduction
 
 - The Gulp.js boilerplate I created, which I used for development: [github.com/koshacha/gulp-boilerplate](https://github.com/koshacha/gulp-boilerplate)
-- Website link - [stroymarket23.ru](https://stroymarket23.ru/)
 
 ## Techstack
 

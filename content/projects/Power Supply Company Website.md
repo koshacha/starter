@@ -8,12 +8,12 @@ layout: project
 published: true
 icon: doodles:neft
 color: "#41BB85"
+link: "https://www.noviten.ru/"
 ---
 
 ## Links
 
 - The Gulp.js boilerplate I created, which I used for development: [github.com/koshacha/gulp-boilerplate](https://github.com/koshacha/gulp-boilerplate)
-- Website link - <DeferButton><a href="https://www.noviten.ru/" rel="noreferrer">www.noviten.ru</a></DeferButton>
 
 ## Techstack
 
