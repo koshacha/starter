@@ -8,6 +8,7 @@
       <div class="flex flex-col flex-1 pt-16 pb-4 overflow-y-auto">
         <the-header />
         <the-menu />
+        <language-swither />
       </div>
       <div
         class="flex flex-shrink-0 py-4 px-6 border-t dark:border-neutral-700 items-center"

@@ -6,7 +6,7 @@
       :query="{ where: { published: { $eq: true } }, sort: [{ sort: -1 }] }"
     >
       <li class="flow-root" v-for="proj in list" :key="proj._path">
-        <nuxt-link
+        <nuxt-link-locale
           :to="proj._path"
           class="group"
           :style="{ '--bg': proj.color }"
@@ -37,7 +37,7 @@
           <p class="text-neutral-500 mt-4 dark:text-neutral-400">
             {{ proj.description }}
           </p>
-        </nuxt-link>
+        </nuxt-link-locale>
       </li>
     </ContentList>
   </ul>

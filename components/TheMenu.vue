@@ -5,7 +5,7 @@
         <p class="text-sm font-semibold uppercase text-black dark:text-white">
           Portfolio
         </p>
-        <nuxt-link
+        <nuxt-link-locale
           v-for="link in links"
           :key="link.to"
           :to="link.to"
@@ -17,7 +17,7 @@
         >
           <Icon class="text-inherit size-4" :name="link.icon" />
           {{ link.text }}
-        </nuxt-link>
+        </nuxt-link-locale>
       </div>
     </div>
   </nav>

@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/icon",
     "@nuxtjs/google-fonts",
+    "@nuxtjs/i18n",
   ],
 
   ssr: true,
@@ -50,6 +51,11 @@ export default defineNuxtConfig({
         class: "dark:bg-neutral-900 dark:text-white bg-white",
       },
     },
+  },
+
+  i18n: {
+    locales: ['en', 'ru'],
+    defaultLocale: "ru",
   },
 
   compatibilityDate: "2024-12-28",
