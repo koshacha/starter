@@ -6,11 +6,14 @@
       :query="{ where: { published: { $eq: true } }, sort: [{ sort: -1 }] }"
     >
       <li class="flow-root" v-for="proj in list" :key="proj._path">
-        <a :href="proj._path" title="Lexington Themes" class="group">
+        <nuxt-link
+          :to="proj._path"
+          class="group"
+          :style="{ '--bg': proj.color }"
+        >
           <div class="flex items-center gap-x-4">
             <div
               class="size-10 rounded-xl inline-grid place-content-center dark:border dark:border-neutral-700 bg-[var(--bg)]"
-              :style="{ '--bg': proj.color }"
             >
               <Icon
                 :name="proj.icon ?? 'lucide:file'"
@@ -20,7 +23,7 @@
             </div>
             <div class="text-sm leading-6">
               <p
-                class="font-semibold text-black dark:text-white group-hover:text-blue-400 duration-200"
+                class="font-semibold text-black dark:text-white group-hover:text-[var(--bg)] duration-200"
               >
                 {{ proj.title }}
               </p>
@@ -34,8 +37,17 @@
           <p class="text-neutral-500 mt-4 dark:text-neutral-400">
             {{ proj.description }}
           </p>
-        </a>
+        </nuxt-link>
       </li>
     </ContentList>
   </ul>
 </template>
+
+<script setup lang="ts">
+const { page } = useContent();
+const { color, set } = useAppColor();
+
+onMounted(() => {
+  set(null);
+});
+</script>

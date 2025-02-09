@@ -2,7 +2,7 @@
   <nuxt-link
     to="/projects/"
     type="button"
-    class="text-sm text-neutral-500 hover:text-blue-400 dark:text-neutral-50 duration-200"
+    class="text-sm text-neutral-500 hover:text-[var(--project-color)] dark:text-neutral-50 duration-200"
   >
     ← Back
   </nuxt-link>
@@ -35,15 +35,20 @@
       Launched on:
       <time :datetime="page?.year" class="font-mono"> {{ page?.year }} </time>
     </p>
-    <a
-      v-if="page?.link"
-      :href="page?.link"
-      class="text-sm text-neutral-500 hover:text-blue-400 dark:text-neutral-50 duration-200"
-      >See it live →
-    </a>
+    <client-only>
+      <a
+        v-if="page?.link"
+        :href="page?.link"
+        target="_blank"
+        nopener
+        rel="noopener noreferrer"
+        class="text-sm text-neutral-500 hover:text-[var(--project-color)] dark:text-neutral-50 duration-200"
+        >See it live →
+      </a>
+    </client-only>
   </div>
 </template>
 
 <script setup lang="ts">
-const { page, prev } = useContent();
+const { page } = useContent();
 </script>
