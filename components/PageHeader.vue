@@ -32,7 +32,7 @@
     class="flex items-center justify-between text-xs mt-24 pt-0 py-2 border-b dark:border-neutral-700"
   >
     <p class="text-neutral-400 text-base" v-if="page?.year">
-      {{ $("launched") }}
+      {{ $t("launched") }}
       <time :datetime="page?.year" class="font-mono"> {{ page?.year }} </time>
     </p>
     <client-only>
