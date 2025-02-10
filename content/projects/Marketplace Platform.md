@@ -1,4 +1,5 @@
 ---
+title: Маркетплейс
 description: Платформа для маркетплейсов на основе Next.js
 seoDescription: Платформа для маркетплейса, использующая Next.js, RTK Query, WebSocket,
   Google Firebase Authentication и Docker для обеспечения бесперебойной работы пользователей.

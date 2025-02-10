@@ -1,4 +1,4 @@
-# All my work
+# Опыт работы
 
 ::delimeter
   :::work{title="Frontend Developer" where="Фриланс" year="2022 – Настоящее время"}

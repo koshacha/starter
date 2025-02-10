@@ -1,4 +1,5 @@
 ---
+title: CRUD телефонной базы
 description: React.js SPA CRUD, для базы данных телефонов MySQL.
 seoDescription:
   React.js SPA, с помощью которого можно исследовать телефонную базу данных MySQL.

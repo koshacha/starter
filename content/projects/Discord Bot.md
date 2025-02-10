@@ -1,4 +1,5 @@
 ---
+title: Бот Discord
 description: Бот для приватного Discord-сервера, посвященного общению и ролевой игре. Написан на Nest.js.
 seoDescription: Проект Discord-бота на Node.js, Nest.js, Google Firebase и Docker.
 year: 2024
